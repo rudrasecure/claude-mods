@@ -24,8 +24,6 @@ Review Claude's changes the way you review a pull request, without leaving the s
 
 ### Install
 
-The repository is private: you need read access to `rudrasecure/claude-mods`, and git on your machine has to be able to fetch it (`gh auth login`, or an SSH key on your GitHub account).
-
 **From the marketplace (recommended)**
 
 In Claude Code:
@@ -168,3 +166,7 @@ claude --plugin-dir ./review-pane     # try it; edits reload when the folder goe
 ```
 
 `tsconfig.json` extends `.claude-plugin/types/tsconfig.json`, which Claude Code writes (with the API's types) each time it loads the mod, so `tsc -p review-pane` type-checks it after one load. That folder is generated and not committed.
+
+## License
+
+[MIT](./LICENSE) © Rudra Secure
