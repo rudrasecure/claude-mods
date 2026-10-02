@@ -1,0 +1,9 @@
+{
+  "name": "review-pane",
+  "version": "0.2.0",
+  "description": "Side pane showing the files changed in this conversation as diffs; mark lines, comment, and send the comments back to Claude",
+  "author": { "name": "Rudra Secure" },
+  "repository": "https://github.com/rudrasecure/claude-mods",
+  "keywords": ["review", "diff", "pane", "comments", "lsp"],
+  "types": "./types/index.d.ts"
+}

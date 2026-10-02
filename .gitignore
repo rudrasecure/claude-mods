@@ -1,0 +1,6 @@
+# Written by Claude Code each time it loads a mod: the API and tool types for
+# the build that loaded it.
+.claude-plugin/types/
+
+node_modules/
+.DS_Store
